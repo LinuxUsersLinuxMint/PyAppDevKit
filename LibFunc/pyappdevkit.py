@@ -63,11 +63,13 @@ def program_welcome_msg(welcome_msg,cfg):
     elif cfg == 0:
         pass
 
-def program_info(programnamedialog,program_name,programversiondialog,program_version,programsupportosdialog,program_support_os,programlicencedialog,program_licence,programauthordialog,program_author,programauthorwebsitedialog,program_author_web_site,programreleasedatedialog,program_rs_date,programlastupdatedatedialog,program_last_update_date):
+def program_info(programnamedialog,program_name,programversiondialog,program_version,programsupportosdialog,program_support_os,programlicencedialog,program_licence,programimplementedcontractsdialog,program_imp_contracts,programimplementedcontractswebsitedialog,program_imp_contracts_web_site,programauthordialog,program_author,programauthorwebsitedialog,program_author_web_site,programreleasedatedialog,program_rs_date,programlastupdatedatedialog,program_last_update_date):
     print("{0} {1}". format(programnamedialog,program_name))
     print("{0} {1}". format(programversiondialog,program_version))
     print("{0} {1}". format(programsupportosdialog,program_support_os))
     print("{0} {1}". format(programlicencedialog,program_licence))
+    print("{0} {1}". format(programimplementedcontractsdialog,program_imp_contracts))
+    print("{0} {1}". format(programimplementedcontractswebsitedialog,program_imp_contracts_web_site))
     print("{0} {1}". format(programauthordialog,program_author))
     print("{0} {1}". format(programauthorwebsitedialog,program_author_web_site))
     print("{0} {1}". format(programreleasedatedialog,program_rs_date))
