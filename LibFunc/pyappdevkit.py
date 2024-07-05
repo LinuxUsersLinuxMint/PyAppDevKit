@@ -21,8 +21,8 @@ def exit_program_dialog_time(exit_dialog_msg,userTime):
         exit()
 
 def exit_program_time(userTime):
-    time.sleep(userTime)
     userTime = int(userTime)
+    time.sleep(userTime)
     if platform.system() == "Windows":
         os.system("exit")
     else:
