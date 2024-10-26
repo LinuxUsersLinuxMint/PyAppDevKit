@@ -5,8 +5,7 @@ PyAppDevKit All Rights Reserved under the GPL(General Public License).
 Bu Yazılımın Bir Kopyası GİTHUB da yayınlanmaktadır Görüntülemek için: https://github.com/LinuxUsersLinuxMint/PyAppDevKit
 A Copy of This Software is published on GITHUB To view: https://github.com/LinuxUsersLinuxMint/PyAppDevKit"""
 
-import os, time, platform
-from PyAppDevKit.InfoLib.pyappdevkit_info import *
+from LibFunc.lib import *
 
 def error_msg(error_dialog):
     print(error_dialog)
