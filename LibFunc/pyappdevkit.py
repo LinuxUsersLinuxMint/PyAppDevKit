@@ -16,17 +16,16 @@ def error_msg(error_dialog):
 
 def exit_program_dialog_time(exit_dialog_msg,userTime):
     print(exit_dialog_msg)
-    userTime = int(userTime)
     time(userTime)
     exit()
 
 def exit_program_time(userTime):
-    userTime = int(userTime)
     time(userTime)
     exit()
 
 def exit_program_dialog(exit_dialog_msg):
     print(exit_dialog_msg)
+    exit()
 
 """ Example Dialog (ExitSelectDialog): "Select the method to exit the program (0: Dialogue and Time entry, 1: Time entry only, 2: Dialogue entry only, 3: Normal exit (old style)): "
  Example Dialog (userTimeDialog): "After how many seconds should the program be closed?: "
@@ -37,10 +36,10 @@ def all_exit(ExitSelectDialog,userTimeDialog,exitDialog,errormsgDialog):
     exit_select = int(input(ExitSelectDialog))
     exit_select = int(exit_select)
     if exit_select == 0:
-        userTime = input(userTimeDialog)
+        userTime = int(input(userTimeDialog))
         exit_program_dialog_time(exitDialog, userTime)
     elif exit_select == 1:
-        userTime = input(userTimeDialog)
+        userTime = int(input(userTimeDialog))
         exit_program_time(userTime)
     elif exit_select == 2:
         exit_program_dialog(exitDialog)
