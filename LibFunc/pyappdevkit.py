@@ -82,4 +82,4 @@ def program_welcome_msg(welcome_msg,cfg,cfg_,appname,libname,websitelink):
         elif cfg_ == "app":
             program_info("Program Name: ",appname,"","","","","","","","","","","","","","","","","","")
         else:
-            error_msg("Invalid definition!")
+            error_msg("Invalid definition!","","")
