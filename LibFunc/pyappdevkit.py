@@ -11,8 +11,8 @@ def time(number):
         for _ in range(100000000):
             pass
 
-def error_msg(error_dialog):
-    print(error_dialog)
+def error_msg(error_dialog,error_code,support_link):
+    print(error_dialog,error_code,support_link)
 
 def exit_program_dialog_time(exit_dialog_msg,userTime):
     print(exit_dialog_msg)
