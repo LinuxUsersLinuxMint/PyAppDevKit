@@ -11,12 +11,12 @@ PYTHON_LIB_NAME="PyAppDevKit"
 PYTHON_LIB_LICENCE="GPL2"
 PYTHON_LIB_IMPLEMENTED_CONTRACTS="LinuxUsersLinuxMint Privacy and Security Agreement , LinuxUsersLinuxMint Web (Site) Agreement"
 PYTHON_LIB_IMPLEMENTED_CONTRACTS_WEB_SITE="https://linuxuserslinuxmint.github.io/Contracts/privacyandsecutryagreement/en/privacyandsecutryagreement.html , https://linuxuserslinuxmint.github.io/Contracts/linuxuserslinuxmintwebsiteagreement/en/linuxuserslinuxmintwebsiteagreement.html"
-PYTHON_LIB_VER="1.6.3"
+PYTHON_LIB_VER="1.7"
 PYTHON_LIB_SUPPORT_PLATFORM="Windows/Linux/macOS/otherOS"
 PYTHON_LIB_RELEASE_DATE="6/9/2024, Time: 17:54"
-PYTHON_LIB_LAST_UPDATE_DATE="1/28/2025, Time: 14:45 / 2:45 PM"
+PYTHON_LIB_LAST_UPDATE_DATE="2/10/2025, Time: 20:12 / 8:12 PM"
 PYTHON_LIB_AUTHOR="LinuxUsersLinuxMint"
 PYTHON_LIB_AUTHOR_WEB_SITE="https://linuxuserslinuxmint.github.io"
 
 def LibAbout():
-    library_info("Python Library Name:",PYTHON_LIB_NAME,"Python Library Version:",PYTHON_LIB_VER,"Python Library Support OS:",PYTHON_LIB_SUPPORT_PLATFORM,"Python Library Licence Name:",PYTHON_LIB_LICENCE,"Python Library Implemented Contracts:",PYTHON_LIB_IMPLEMENTED_CONTRACTS,"Python Library Implemented Contracts Web Site:",PYTHON_LIB_IMPLEMENTED_CONTRACTS_WEB_SITE,"Python Library Author Name:",PYTHON_LIB_AUTHOR,"Python Library Author Web Site:",PYTHON_LIB_AUTHOR_WEB_SITE,"Python Library Release Date:",PYTHON_LIB_RELEASE_DATE,"Python Library Last Update Date:",PYTHON_LIB_LAST_UPDATE_DATE)
+    app_info("Python Library Name:",PYTHON_LIB_NAME,"Python Library Version:",PYTHON_LIB_VER,"Python Library Support OS:",PYTHON_LIB_SUPPORT_PLATFORM,"Python Library Licence Name:",PYTHON_LIB_LICENCE,"Python Library Implemented Contracts:",PYTHON_LIB_IMPLEMENTED_CONTRACTS,"Python Library Implemented Contracts Web Site:",PYTHON_LIB_IMPLEMENTED_CONTRACTS_WEB_SITE,"Python Library Author Name:",PYTHON_LIB_AUTHOR,"Python Library Author Web Site:",PYTHON_LIB_AUTHOR_WEB_SITE,"Python Library Release Date:",PYTHON_LIB_RELEASE_DATE,"Python Library Last Update Date:",PYTHON_LIB_LAST_UPDATE_DATE)

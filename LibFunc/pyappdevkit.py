@@ -34,7 +34,6 @@ def exit_program_dialog(exit_dialog_msg):
 
 def all_exit(ExitSelectDialog,userTimeDialog,exitDialog,errormsgDialog):
     exit_select = int(input(ExitSelectDialog))
-    exit_select = int(exit_select)
     if exit_select == 0:
         userTime = int(input(userTimeDialog))
         exit_program_dialog_time(exitDialog, userTime)
@@ -48,19 +47,7 @@ def all_exit(ExitSelectDialog,userTimeDialog,exitDialog,errormsgDialog):
     else:
         print(errormsgDialog)
 
-def program_info(dialog_one,dialog_one_t,dialog_two,dialog_two_t,dialog_three,dialog_three_t,dialog_four,dialog_four_t,dialog_five,dialog_five_t,dialog_six,dialog_six_t,dialog_seven,dialog_seven_t,dialog_eigth,dialog_eight_t,dialog_nine,dialog_nine_t,dialog_ten,dialog_ten_t):
-    print("{0} {1}". format(dialog_one,dialog_one_t))
-    print("{0} {1}". format(dialog_two,dialog_two_t))
-    print("{0} {1}". format(dialog_three,dialog_three_t))
-    print("{0} {1}". format(dialog_four,dialog_four_t))
-    print("{0} {1}". format(dialog_five,dialog_five_t))
-    print("{0} {1}". format(dialog_six,dialog_six_t))
-    print("{0} {1}". format(dialog_seven,dialog_seven_t))
-    print("{0} {1}". format(dialog_eigth,dialog_eight_t))
-    print("{0} {1}". format(dialog_nine,dialog_nine_t))
-    print("{0} {1}". format(dialog_ten,dialog_ten_t))
-
-def library_info(dialog_one,dialog_one_t,dialog_two,dialog_two_t,dialog_three,dialog_three_t,dialog_four,dialog_four_t,dialog_five,dialog_five_t,dialog_six,dialog_six_t,dialog_seven,dialog_seven_t,dialog_eigth,dialog_eight_t,dialog_nine,dialog_nine_t,dialog_ten,dialog_ten_t):
+def app_info(dialog_one,dialog_one_t,dialog_two,dialog_two_t,dialog_three,dialog_three_t,dialog_four,dialog_four_t,dialog_five,dialog_five_t,dialog_six,dialog_six_t,dialog_seven,dialog_seven_t,dialog_eigth,dialog_eight_t,dialog_nine,dialog_nine_t,dialog_ten,dialog_ten_t):
     print("{0} {1}". format(dialog_one,dialog_one_t))
     print("{0} {1}". format(dialog_two,dialog_two_t))
     print("{0} {1}". format(dialog_three,dialog_three_t))
@@ -78,8 +65,8 @@ def program_welcome_msg(welcome_msg,cfg,cfg_,appname,libname,websitelink):
         print(websitelink)
     elif cfg == 0:
         if cfg_ == "lib":
-            library_info("Library Name: ",libname,"","","","","","","","","","","","","","","","","","")
+            app_info("Library Name: ",libname,"","","","","","","","","","","","","","","","","","")
         elif cfg_ == "app":
-            program_info("Program Name: ",appname,"","","","","","","","","","","","","","","","","","")
+            app_info("Program Name: ",appname,"","","","","","","","","","","","","","","","","","")
         else:
             error_msg("Invalid definition!","","")
