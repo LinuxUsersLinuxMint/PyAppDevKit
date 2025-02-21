@@ -1,17 +1,17 @@
 # PyAppDevKit (Python App Developer Kit)
 
-TR (Turkish / Türkçe):
+Türkçe:
 
-Bilgi: PyAppDevKit kütüphanesi hakkında detaylı bilgi için: https://linuxuserslinuxmint.github.io/Documents/PyAppDevKit/TR/pyappdevkit_doc.html
+Bilgi: PyAppDevKit kütüphanesi hakkında detaylı bilgi için: https://linuxuserslinuxmint.github.io/Documents/PyAppDevKit/pyappdevkit_doc.html
 
 * "Basic_Maths" kütüphanesinin "4.1" sürümündeki geliştiriciler için oluşturulan fonksiyonlar artık "PyAppDevKit" adı altında sunulucaktır.
 * Python geliştiricileri için yazılım/uygulama geliştirmeyi kolaylaştırmayı hedefleyen bir geliştirme kitidir.
 * Sürekli güncel kalır bu sayede sürekli yeni özellikler eklenir ve hata varsa bunlar çözülür.
 * En iyi kullanıcı deneyiminiz için "PyAppDevKit" kütüphanesinin her zaman en son sürümünü kullanınız.
 
-EN (English / İngilizce):
+English:
 
-Info: For detailed information about the PyAppDevKit library: https://linuxuserslinuxmint.github.io/Documents/PyAppDevKit/EN/pyappdevkit_doc.html
+Info: For detailed information about the PyAppDevKit library: https://linuxuserslinuxmint.github.io/Documents/PyAppDevKit/pyappdevkit_doc.html
 
 * Functions created for developers in the "4.1" version of the "Basic_Maths" library will now be offered under the name "PyAppDevKit".
 * It is a development kit that aims to make software/application development easier for Python developers.
