@@ -11,6 +11,13 @@ def time(number):
         for _ in range(100000000):
             pass
 
+def file(file_name,file_mode,file_write):
+    create_file = open(file_name, file_mode)
+    if file_mode == "w" or file_mode == "a":
+        create_file.write("{0}\n". format(file_write))
+    elif file_mode == "r":
+        print(create_file.read())
+
 def error_msg(error_dialog,error_code,support_link):
     print(error_dialog,error_code,support_link)
 
