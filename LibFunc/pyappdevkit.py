@@ -41,7 +41,7 @@ def exit_program_dialog(exit_dialog_msg):
  Example Dialog (exitDialog): "Exit program..."
  Example Dialog (errormsgDialog): "Invalid Command!" """
 
-def all_exit(dialog_switch,ExitSelectDialog,userTimeDialog,exitDialog,errormsgDialog):
+def all_exit(dialog_switch,lang,ExitSelectDialog,userTimeDialog,exitDialog,errormsgDialog):
     if dialog_switch == ON:
         exit_select = int(input(ExitSelectDialog))
         if exit_select == 0:
@@ -57,19 +57,34 @@ def all_exit(dialog_switch,ExitSelectDialog,userTimeDialog,exitDialog,errormsgDi
         else:
             print(errormsgDialog)
     elif dialog_switch == OFF:
-        exit_select = int(input("Select the method to exit the program (0: Dialogue and Time entry, 1: Time entry only, 2: Dialogue entry only, 3: Normal exit (old style)): "))
-        if exit_select == 0:
-            userTime = int(input("After how many seconds should the program be closed?: "))
-            exit_program_dialog_time("Exit program...", userTime)
-        elif exit_select == 1:
-            userTime = int(input("After how many seconds should the program be closed?: "))
-            exit_program_time(userTime)
-        elif exit_select == 2:
-            exit_program_dialog("Exit program...")
-        elif exit_select == 3:
-            exit()
-        else:
-            print("Invalid Command!")
+        if lang == EN:
+            exit_select = int(input("Select the method to exit the program (0: Dialogue and Time entry, 1: Time entry only, 2: Dialogue entry only, 3: Normal exit (old style)): "))
+            if exit_select == 0:
+                userTime = int(input("After how many seconds should the program be closed?: "))
+                exit_program_dialog_time("Exit program...", userTime)
+            elif exit_select == 1:
+                userTime = int(input("After how many seconds should the program be closed?: "))
+                exit_program_time(userTime)
+            elif exit_select == 2:
+                exit_program_dialog("Exit program...")
+            elif exit_select == 3:
+                exit()
+            else:
+                print("Invalid Command!")
+        elif lang == TR:
+            exit_select = int(input("Programdan çıkış yöntemini seçin (0: Diyalog ve Zaman girişi, 1: Yalnızca zaman girişi, 2: Yalnızca diyalog girişi, 3: Normal çıkış (eski stil)):  "))
+            if exit_select == 0:
+                userTime = int(input("Program kaç saniye sonra kapatılmalıdır?: "))
+                exit_program_dialog_time("Programdan çıkılıyor...", userTime)
+            elif exit_select == 1:
+                userTime = int(input("Program kaç saniye sonra kapatılmalıdır?: "))
+                exit_program_time(userTime)
+            elif exit_select == 2:
+                exit_program_dialog("Programdan çıkılıyor...")
+            elif exit_select == 3:
+                exit()
+            else:
+                print("Geçersiz Komut!")
 
 def app_info(dialog_one,dialog_one_t,dialog_two,dialog_two_t,dialog_three,dialog_three_t,dialog_four,dialog_four_t,dialog_five,dialog_five_t,dialog_six,dialog_six_t,dialog_seven,dialog_seven_t,dialog_eigth,dialog_eight_t,dialog_nine,dialog_nine_t,dialog_ten,dialog_ten_t):
     print("{0} {1}". format(dialog_one,dialog_one_t))
