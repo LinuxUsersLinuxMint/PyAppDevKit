@@ -1,4 +1,4 @@
-from LibFunc.pyappdevkit import *
+from PyAppDevKit.pyappdevkit import *
 
 app_info("NAME:","TEST [PROGRAM_LIBRARY_INFO]","","","","","","","","","","","","","","","","","","")
 

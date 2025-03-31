@@ -1,0 +1,14 @@
+#!/usr/bin/python3
+
+ON="ON"
+OFF="ON"
+EN="EN"
+TR="TR"
+MILISECOND="MILISECOND"
+MS="MS"
+SECOND="SECOND"
+S="S"
+MINUTE="MINUTE"
+M="M"
+HOUR="HOUR"
+H="H"
