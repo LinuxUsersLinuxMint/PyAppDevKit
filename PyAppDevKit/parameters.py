@@ -1,9 +1,17 @@
 #!/usr/bin/python3
 
+# Open/Close
+
 ON="ON"
 OFF="ON"
+
+# Lang
+
 EN="EN"
 TR="TR"
+
+# Time units
+
 MILISECOND="MILISECOND"
 MS="MS"
 SECOND="SECOND"

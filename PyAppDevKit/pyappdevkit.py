@@ -53,11 +53,6 @@ def exit_program_dialog(exit_dialog_msg):
     print(exit_dialog_msg)
     exit()
 
-""" Example Dialog (ExitSelectDialog): "Select the method to exit the program (0: Dialogue and Time entry, 1: Time entry only, 2: Dialogue entry only, 3: Normal exit (old style)): "
- Example Dialog (userTimeDialog): "After how many seconds should the program be closed?: "
- Example Dialog (exitDialog): "Exit program..."
- Example Dialog (errormsgDialog): "Invalid Command!" """
-
 def all_exit(dialog_switch,lang,ExitSelectDialog,userTimeDialog,exitDialog,errormsgDialog,unit):
     if dialog_switch == ON:
         exit_select = int(input(ExitSelectDialog))
