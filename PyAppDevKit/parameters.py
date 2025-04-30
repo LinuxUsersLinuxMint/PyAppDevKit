@@ -3,7 +3,7 @@
 # Open/Close
 
 ON="ON"
-OFF="ON"
+OFF="OFF"
 
 # Lang
 
