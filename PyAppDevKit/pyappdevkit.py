@@ -8,6 +8,14 @@ A Copy of This Software is published on GitHub To view: https://github.com/Linux
 from PyAppDevKit.parameters import *
 import os
 
+"""
+TR:
+Uyarı: time() fonksiyonu gerçek bir zaman ölçümü yapmaz bunun yerine döngü oluşturarak bekleme süresi oluşturur bu yüzden bekleme süresi belirtilen süreden farklı olabilir. Eğer gerçek bir zaman ölçümü yapmak istiyorsanız bunun yerine Python programlama dilinde yerleşik olarak gelen time kütüphanesini kullanınız.
+
+EN:
+Warning: the time() function does not measure actual time, instead it loops and creates a waiting time, so the waiting time may be different from the specified time. If you want to measure real time, use the time library built into the Python programming language instead.
+"""
+
 def time(number,unit):
     while number > 0:
         number -= 1
