@@ -9,9 +9,9 @@
 > 📅 Release date: **June 9, 2024**   
 > 📦 Initial release: **PyAppDevKit Python Library 1.0**   
 > 📦 Current version: **PyAppDevKit 2.1.3**   
-> 📦 Next release: **PyAppDevKit 2.4**   
-> ⏳ Next release status: **It's not under development...**   
-> 🛠️ Next release type: **Uncertain** 
+> 📦 Next release: **PyAppDevKit 2.2**   
+> ⏳ Next release status: **Under development...**   
+> 🛠️ Next release type: **Big Update** 
 
 ---
 
